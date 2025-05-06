@@ -16,5 +16,5 @@ Sample application.yml ( refactored application.properties ) -
       host: host.docker.internal
       port: 27017
       database: mongodbLearning
-      authentication-database: admin```
+      authentication-database: admin
 
