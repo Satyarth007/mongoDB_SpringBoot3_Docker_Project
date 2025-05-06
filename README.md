@@ -8,7 +8,7 @@ Project Flow -
 Note - When using mongoDB via Docker and running the Spring application in the local system, then in that point the value of host in the application.yml should not be `localhost` , it should be `host.docker.internal`.
 
 Sample application.yml ( refactored application.properties ) - 
-`spring:
+```spring:
   data:
     mongodb:
       username: satyarth
@@ -16,5 +16,5 @@ Sample application.yml ( refactored application.properties ) -
       host: host.docker.internal
       port: 27017
       database: mongodbLearning
-      authentication-database: admin`
+      authentication-database: admin```
 
