@@ -17,4 +17,9 @@ Sample application.yml ( refactored application.properties ) -
       port: 27017
       database: mongodbLearning
       authentication-database: admin
-
+```
+# Mongo Shell Startup Step in Windows: 
+```
+1. Open Mongosh file.
+2. Please enter a MongoDB connection string (Default: mongodb://localhost/): mongodb://localhost:27017
+3. show dbs
